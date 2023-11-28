@@ -33,7 +33,9 @@ public class ejercicio1 {
             int cantidad1 = solicitoEntero("Introduce cantidad:");
             int min = solicitoEntero("Introduce el valor mínimo:");
             int max = solicitoEntero("Introduce el valor máximo:");
-            NumerosAleatorios(cantidad1, min, max);
+            //Control de mínimo mayor que máximo.
+            if (min<max) NumerosAleatorios(cantidad1, min, max);
+            else System.out.println("Opción no permitida: Valor mínimo superior al máximo.");
         } else if (opcion == 2) {
             // Para la opción 2, pedimos la cantidad y mostramos números aleatorios entre 0 y 1
             int cantidad2 = solicitoEntero("Ingrese la cantidad de números aleatorios entre 0 y 1:");
