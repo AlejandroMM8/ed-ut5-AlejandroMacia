@@ -1,1 +1,1 @@
-_Proyecto_ **github**
+_El programa calcula una serie de números aleatorios enteros, dando la opción al usuario (utilizando un menú), de mostrar aleatorios eligiendo la cantidad y el rango o aleatorios entre 0 y 1. A su vez, el programa también está programado para calcular el enésimo término de la serie de Fibonacci._ **CALCULADORA**
